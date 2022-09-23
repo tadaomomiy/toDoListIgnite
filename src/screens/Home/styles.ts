@@ -9,7 +9,6 @@ export const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
-        marginLeft: 132,
         marginTop: 70
     },
     logoToText: {
@@ -45,5 +44,18 @@ export const styles = StyleSheet.create({
         backgroundColor: '#1E6F9F',
         alignItems: 'center',
         justifyContent: 'center'
+    },
+    logoImage: {
+        height: 32,
+        width: 110
+    },
+    plusImage: {
+        height: 16,
+        width: 16
+    },
+    taskContainer: {
+        backgroundColor: '#454545',
+        flex: 1
+
     }
 })
